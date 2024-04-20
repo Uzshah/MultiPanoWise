@@ -1,3 +1,6 @@
+# Adapted from https://github.com/zhijieshen-bjtu/PanoFormer
+# Original author: zhijie Shen
+
 import numpy as np
 import torch
 import torch.nn.functional as F
