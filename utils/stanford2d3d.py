@@ -52,7 +52,7 @@ class Stanford2d3d(data.Dataset):
         self.id2label = np.array([name2id[name] for name in id2name], np.uint8)
         if is_training:
             self.rgb_depth_list = read_list(os.path.join(root_dir, "train_full.txt"))
-            self.rgb_depth_list = self.rgb_depth_list
+            self.rgb_depth_list = 3*self.rgb_depth_list
         else:
             self.rgb_depth_list = read_list(os.path.join(root_dir, "test_full.txt"))
         self.w = width
@@ -61,8 +61,8 @@ class Stanford2d3d(data.Dataset):
         self.max_depth_meters = 10.0
 
         self.color_augmentation = False
-        self.LR_filp_augmentation = False
-        self.yaw_rotation_augmentation = False
+        self.LR_filp_augmentation = True
+        self.yaw_rotation_augmentation = True
 
         self.is_training = is_training
 
@@ -113,7 +113,7 @@ class Stanford2d3d(data.Dataset):
             roll_idx = random.randint(0, self.w)
             rgb = np.roll(rgb, roll_idx, 1)
             gt_depth = np.roll(gt_depth, roll_idx, 1)
-            gt_semantic = np.roll(np.array(gt_semantic), roll_idx, 1)
+            mask = np.roll(np.array(mask), roll_idx, 1)
 
         if self.is_training and self.LR_filp_augmentation and random.random() > 0.5:
             rgb = cv2.flip(rgb, 1)
