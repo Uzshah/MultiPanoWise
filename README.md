@@ -3,5 +3,5 @@ MULTIPANOWISE: HOLISTIC DEEP ARCHITECTURE FOR MULTI-TASK DENSE PREDICTION FROM A
 
 #Acknowledgements
 We thank the authors of the project below:
-![PanoFormer](https://github.com/zhijieshen-bjtu/PanoFormer)
+[PanoFormer](https://github.com/zhijieshen-bjtu/PanoFormer)
 
