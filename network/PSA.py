@@ -1,3 +1,7 @@
+# Adapted from https://github.com/zhijieshen-bjtu/PanoFormer
+# Original author: zhijie Shen
+
+
 from typing import List, Optional
 
 import torch
