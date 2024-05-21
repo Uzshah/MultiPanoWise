@@ -9,6 +9,8 @@ This is the pytorch implementation of MultiPanoWise (MultiPanoWise: holistic dee
 
 # PreTrained weights
 We updated the models trained for Structured3D in this *[link (click me)](https://drive.google.com/drive/folders/1nmf_QOnCXctaXqQP-fQTAfn_49ca2LXa?usp=sharing)*, now you can download and test it! If you have downloaded it and put it in the correct folder. You can run:
+
+
 Single-GPU
 ```bash
 python main.py --batch-size 1 --num_epochs 0 --data_path path/to/dataset --load_weights_dir path/to/weights
