@@ -40,14 +40,13 @@ We thank the authors of the project below:
 ```
 If you like this work please cite this:
 ```
-@inproceedings{Shah:2024:PSG,
-    author = {Uzair Shah and Muhammad Tukur and Mahmood Alzubaidi and Giovanni Pintore and Enrico Gobbetti and Mowafa Househ and Jens Schneider and Marco Agus},
-    title = {{MultiPanoWise}: holistic deep architecture for multi-task dense prediction from a single panoramic image},
-    booktitle = {Proc. OmniCV - IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
-    year = {2024},
-    abstract = { We present a novel holistic deep-learning approach for multi-task learning from a single indoor panoramic im- age. Our framework, named MultiPanoWise, extends vi- sion transformers to jointly infer multiple pixel-wise sig- nals, such as depth, normals, and semantic segmentation, as well as signals from intrinsic decomposition, such as re- flectance and shading. Our solution leverages a specific ar- chitecture combining a transformer-based encoder-decoder with multiple heads, by introducing, in particular, a novel context adjustment approach, to enforce knowledge distil- lation between the various signals. Moreover, at train- ing time we introduce a hybrid loss scalarization method based on an augmented Chebychev/hypervolume scheme. We demonstrate the capabilities of the proposed architec- ture on public-domain synthetic and real-world datasets. We showcase performance improvements with respect to the most recent methods specifically designed for single tasks, like, for example, individual depth estimation or semantic segmentation. To the best of our knowledge, this is the first architecture able to achieve state-of-the-art performance on the joint extraction of heterogeneous signals from single in- door omnidirectional images },
-    note = {To appear},
-    url = {http://vic.crs4.it/vic/cgi-bin/bib-page.cgi?id='Shah:2024:PSG'},
+@InProceedings{Shah_2024_CVPR,
+    author    = {Shah, Uzair and Tukur, Muhammad and Alzubaidi, Mahmood and Pintore, Giovanni and Gobbetti, Enrico and Househ, Mowafa and Schneider, Jens and Agus, Marco},
+    title     = {MultiPanoWise: Holistic Deep Architecture for Multi-task Dense Prediction from a Single Panoramic Image},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2024},
+    pages     = {1311-1321}
 }
 ```
 
