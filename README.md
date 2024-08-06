@@ -1,6 +1,6 @@
 # MultiPanoWise
 This is the pytorch implementation of MultiPanoWise (MultiPanoWise: holistic deep architecture for multi-task dense prediction from a single panoramic image, CVPRW 2024)!
-
+[PAPER](https://openaccess.thecvf.com/content/CVPR2024W/OmniCV2024/papers/Shah_MultiPanoWise_Holistic_Deep_Architecture_for_Multi-task_Dense_Prediction_from_a_CVPRW_2024_paper.pdf)
 # Methodology
 
 ![process](./img/process_diagram.jpg)
@@ -8,7 +8,7 @@ This is the pytorch implementation of MultiPanoWise (MultiPanoWise: holistic dee
 
 # Poster
 
-![poster](./paper/MultiPanoWise_OmniCV_Poster.pdf) 
+![poster](./Paper/MultiPanoWise_OmniCV_Poster.pdf) 
 # PreTrained weights
 We updated the models trained for Structured3D in this *[link (click me)](https://drive.google.com/drive/folders/1nmf_QOnCXctaXqQP-fQTAfn_49ca2LXa?usp=sharing)*, now you can download and test it! If you have downloaded it and put it in the correct folder. You can run:
 
